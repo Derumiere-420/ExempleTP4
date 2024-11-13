@@ -24,6 +24,7 @@ namespace PostHubServer.Controllers
             _postService = postService;
             _commentService = commentService;
             //commentaire B
+            //commentaire A
         }
 
         // Créer un nouveau commentaire. (Ne permet pas de créer le commentaire principal d'un post, pour cela,
