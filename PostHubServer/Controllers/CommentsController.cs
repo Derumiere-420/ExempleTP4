@@ -16,6 +16,7 @@ namespace PostHubServer.Controllers
         private readonly UserManager<User> _userManager;
         private readonly PostService _postService;
         private readonly CommentService _commentService;
+        //commentaire 
 
         public CommentsController(UserManager<User> userManager, PostService postService, CommentService commentService)
         {
